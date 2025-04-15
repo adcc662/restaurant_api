@@ -85,8 +85,8 @@ restaurants_api/
 
 4. Ejecutar las migraciones:
    ```
-   docker-compose exec -it <container-id> python manage.py makemigrations
-   docker-compose exec -it <container-id> python manage.py migrate
+   docker compose exec web python manage.py makemigrations reviews
+   docker compose exec web python manage.py migrate
    ```
 
 
